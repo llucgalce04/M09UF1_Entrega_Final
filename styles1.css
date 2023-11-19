@@ -1,0 +1,58 @@
+/* Encabezado */
+h1 {
+    text-align: center;
+    color: #2E86C1; /* Azul oscuro */
+    background-color: #ECF0F1; /* Gris claro */
+    padding: 15px; /* Aumenté el espacio de relleno */
+    border-radius: 8px; /* Esquinas redondeadas */
+}
+
+/* Navegación */
+nav ul {
+    text-align: center;
+    background-color: #34495E; /* Azul oscuro */
+    padding: 15px; /* Aumenté el espacio de relleno */
+}
+
+nav ul li {
+    display: inline-block; /* Cambié a inline-block para más espacio entre elementos */
+    margin: 0 20px; /* Aumenté el margen entre elementos */
+}
+
+nav ul li a {
+    color: #ECF0F1; /* Blanco */
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold; /* Hice el texto más grueso */
+}
+
+body {
+    background-color: #2C3E50; /* Azul medio */
+    color: #ECF0F1; /* Blanco */
+    margin: 0;
+    padding: 0;
+}
+
+/* Formulario */
+form {
+    width: 300px;
+    margin: 20px auto; /* Centré el formulario */
+}
+
+/* Contenido principal */
+main {
+    margin: 20px;
+}
+
+/* Barra lateral */
+aside {
+    padding: 15px;
+    border-radius: 8px;
+    border: 3px solid #2E86C1; /* Azul oscuro */
+    float: right;
+    width: 250px; /* Reduje el ancho */
+    margin: 20px 20px 20px 0;
+    background-color: #ECF0F1; /* Gris claro */
+    color: #2C3E50; /* Azul medio */
+}
+
